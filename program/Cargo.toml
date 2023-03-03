@@ -1,5 +1,5 @@
 [package]
-name = "mpl-token-auth-rules"
+name = "lpl-token-auth-rules"
 version = "1.2.0"
 description = "MPL Token Authorization Rules that can be used to restrict common token operations"
 authors = ["Metaplex Developers <dev@metaplex.com>"]
@@ -19,8 +19,8 @@ num-traits = "0.2"
 serde = { version = "1.0.149", features = ["derive"]}
 serde_with = { version = "1.14.0", optional = true }
 rmp-serde = "1.1.1"
-mpl-token-metadata-context-derive = "0.2.1"
-safecoin-zk-token-sdk = "1.14"
+lpl-token-metadata-context-derive = "0.2.1"
+safe-zk-token-sdk = "1.14"
 
 [features]
 no-entrypoint = []
