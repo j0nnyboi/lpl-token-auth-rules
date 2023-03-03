@@ -26,7 +26,7 @@
 use borsh::{BorshDeserialize, BorshSerialize};
 use num_derive::FromPrimitive;
 use num_traits::FromPrimitive;
-use solana_program::{
+use safecoin_program::{
     account_info::AccountInfo, entrypoint::ProgramResult, program_error::ProgramError,
 };
 
